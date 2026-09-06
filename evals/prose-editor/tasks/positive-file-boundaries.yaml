@@ -1,4 +1,4 @@
-id: restore-author-voice-positive-file-boundaries
+id: prose-editor-positive-file-boundaries
 name: Preserve non-prose file regions
 description: A Markdown rewrite should change prose without altering frontmatter, code, or link targets.
 tags:

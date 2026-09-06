@@ -1,4 +1,4 @@
-id: restore-author-voice-positive-auto-edison-decision
+id: prose-editor-positive-auto-edison-decision
 name: Auto-route Edison decision prose
 description: An author-owned technical decision should trigger without explicitly asking for humanization or naming the skill.
 tags:

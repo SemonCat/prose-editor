@@ -1,4 +1,4 @@
-id: restore-author-voice-negative-neutral-spec
+id: prose-editor-negative-neutral-spec
 name: Neutral technical formatting should not trigger
 description: A request for precise neutral documentation should stay outside author-voice restoration.
 tags:

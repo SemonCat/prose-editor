@@ -1,4 +1,4 @@
-id: restore-author-voice-positive-voice-conflict
+id: prose-editor-positive-voice-conflict
 name: Surface a material venue and voice conflict
 description: Irreconcilable required venue and voice rules should trigger one bounded clarification instead of silent override.
 tags:

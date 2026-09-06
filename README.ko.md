@@ -1,8 +1,8 @@
-# restore-author-voice
+# prose-editor
 
 [English](README.md) · [繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
-`restore-author-voice`는 글쓴이를 획일적인 “사람다운 문체”로 바꾸지 않고, 원래 목소리를 살려 문장을 다시 쓰는 skill입니다. 사실, 입장, 불확실성, 인용, 매체별 관례를 먼저 보존한 뒤 구조, 문단 흐름, 매체 적합성, 표면 표현 순으로 더 깊은 문제부터 고칩니다.
+`prose-editor`는 글쓴이를 획일적인 “사람다운 문체”로 바꾸지 않고, 원래 목소리를 살려 문장을 다시 쓰는 skill입니다. 사실, 입장, 불확실성, 인용, 매체별 관례를 먼저 보존한 뒤 구조, 문단 흐름, 매체 적합성, 표면 표현 순으로 더 깊은 문제부터 고칩니다.
 
 ## 주요 기능
 
@@ -42,7 +42,7 @@
 Agent Skills CLI를 사용합니다.
 
 ```bash
-npx skills add https://github.com/SemonCat/restore-author-voice
+npx skills add https://github.com/SemonCat/prose-editor
 ```
 
 저장소를 clone한 뒤 agent가 지원하는 skill 디렉터리에 배치할 수도 있습니다.
@@ -52,7 +52,7 @@ npx skills add https://github.com/SemonCat/restore-author-voice
 원문, 대상 독자, 매체, 모드, 변경하면 안 되는 내용을 agent에 전달합니다.
 
 ```text
-restore-author-voice를 cleanup 모드로 사용해 주세요. 모든 숫자와 인용은 그대로 유지하세요.
+prose-editor를 cleanup 모드로 사용해 주세요. 모든 숫자와 인용은 그대로 유지하세요.
 ```
 
 ```text
@@ -80,7 +80,7 @@ docs/launch.md의 본문만 다시 써 주세요. frontmatter, code blocks, data
 - [`references/en.md`](references/en.md): 영어 지역 관례, 표기, 격식, voice 경계
 - [`references/zh-tw.md`](references/zh-tw.md): 대만 독자를 위한 번체 중국어 가이드
 - [`references/evaluation.md`](references/evaluation.md): 내용 보존과 모드 검사
-- [`evals/restore-author-voice/eval.yaml`](evals/restore-author-voice/eval.yaml): 검토된 Waza 긍정·부정 회귀 사례
+- [`evals/prose-editor/eval.yaml`](evals/prose-editor/eval.yaml): 검토된 Waza 긍정·부정 회귀 사례
 - [`templates/author-profile.md`](templates/author-profile.md): 근거 기반 author profile 템플릿
 
 ## 경계

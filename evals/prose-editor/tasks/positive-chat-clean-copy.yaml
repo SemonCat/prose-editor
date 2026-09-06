@@ -1,4 +1,4 @@
-id: restore-author-voice-positive-chat-clean-copy
+id: prose-editor-positive-chat-clean-copy
 name: Return clean Slack-ready copy
 description: A chat rewrite should preserve operational facts while removing report framing, mannered prose, and editor commentary.
 tags:

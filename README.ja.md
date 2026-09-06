@@ -1,8 +1,8 @@
-# restore-author-voice
+# prose-editor
 
 [English](README.md) · [繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
-`restore-author-voice` は、文章を誰にでも当てはまる「人間らしい文体」に置き換えず、書き手自身の声を保ったまま書き直すための skill です。事実、立場、不確実性、引用、媒体ごとの慣習を先に固定し、構成、論理の流れ、媒体との適合、表現の順に、問題の深い層から修復します。
+`prose-editor` は、文章を誰にでも当てはまる「人間らしい文体」に置き換えず、書き手自身の声を保ったまま書き直すための skill です。事実、立場、不確実性、引用、媒体ごとの慣習を先に固定し、構成、論理の流れ、媒体との適合、表現の順に、問題の深い層から修復します。
 
 ## できること
 
@@ -42,7 +42,7 @@
 Agent Skills CLI を使います。
 
 ```bash
-npx skills add https://github.com/SemonCat/restore-author-voice
+npx skills add https://github.com/SemonCat/prose-editor
 ```
 
 リポジトリを clone し、agent が対応する skill ディレクトリへ配置することもできます。
@@ -52,7 +52,7 @@ npx skills add https://github.com/SemonCat/restore-author-voice
 原文、想定読者、媒体、モード、変更してはいけない内容を agent に渡します。
 
 ```text
-restore-author-voice を cleanup モードで使ってください。数値と引用は一切変更しないでください。
+prose-editor を cleanup モードで使ってください。数値と引用は一切変更しないでください。
 ```
 
 ```text
@@ -80,7 +80,7 @@ docs/launch.md の本文だけを書き直してください。frontmatter、cod
 - [`references/en.md`](references/en.md): 英語の地域差、表記、語調、voice の境界
 - [`references/zh-tw.md`](references/zh-tw.md): 台湾向け繁体字中国語のガイド
 - [`references/evaluation.md`](references/evaluation.md): 内容保持とモードの確認項目
-- [`evals/restore-author-voice/eval.yaml`](evals/restore-author-voice/eval.yaml): レビュー済みの Waza 正例・負例テスト
+- [`evals/prose-editor/eval.yaml`](evals/prose-editor/eval.yaml): レビュー済みの Waza 正例・負例テスト
 - [`templates/author-profile.md`](templates/author-profile.md): 根拠に基づく author profile テンプレート
 
 ## 境界

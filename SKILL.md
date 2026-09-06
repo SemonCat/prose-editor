@@ -1,9 +1,9 @@
 ---
-name: "restore-author-voice"
-description: "Use this skill to rewrite, humanize, de-AI, diagnose, or clean prose while preserving facts, quotes, author voice, genre, audience, venue, and usable copy."
+name: "prose-editor"
+description: "Use this skill to rewrite, humanize, de-AI, diagnose, or polish prose while preserving facts, quotes, author voice, genre, audience, venue, and usable copy."
 ---
 
-# Restore author voice
+# Prose Editor
 
 ## Workflow
 

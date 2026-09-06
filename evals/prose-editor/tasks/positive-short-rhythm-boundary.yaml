@@ -1,4 +1,4 @@
-id: restore-author-voice-positive-short-rhythm-boundary
+id: prose-editor-positive-short-rhythm-boundary
 name: Skip rhythm scoring for a short list
 description: A short release-note list has no running-prose rhythm to score and must not be attributed to a model.
 tags:

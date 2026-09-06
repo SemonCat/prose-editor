@@ -1,8 +1,8 @@
-# restore-author-voice
+# prose-editor
 
 [English](README.md) · 繁體中文 · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-`restore-author-voice` 會改寫文字，但不會把作者換成一種通用的「人味」。它先保留事實、立場、不確定性、引用與場域慣例，再從最深的損壞層開始修復：篇章結構、段落推進、場域適配，最後才處理表面語句。
+`prose-editor` 會改寫文字，但不會把作者換成一種通用的「人味」。它先保留事實、立場、不確定性、引用與場域慣例，再從最深的損壞層開始修復：篇章結構、段落推進、場域適配，最後才處理表面語句。
 
 ## 它會做什麼
 
@@ -42,7 +42,7 @@
 使用 Agent Skills CLI：
 
 ```bash
-npx skills add https://github.com/SemonCat/restore-author-voice
+npx skills add https://github.com/SemonCat/prose-editor
 ```
 
 也可以 clone repo，再放進 agent 支援的 skill 目錄。
@@ -52,7 +52,7 @@ npx skills add https://github.com/SemonCat/restore-author-voice
 提供原稿、目標讀者、場域、模式，以及不能改動的內容。
 
 ```text
-用 restore-author-voice 的 cleanup 模式處理。所有數字與引用都不能改。
+用 prose-editor 的 cleanup 模式處理。所有數字與引用都不能改。
 ```
 
 ```text
@@ -80,7 +80,7 @@ npx skills add https://github.com/SemonCat/restore-author-voice
 - [`references/en.md`](references/en.md)：英文地區慣例、標點、語域與聲音邊界
 - [`references/zh-tw.md`](references/zh-tw.md)：給台灣讀者的繁體中文規則
 - [`references/evaluation.md`](references/evaluation.md)：保真與模式驗收
-- [`evals/restore-author-voice/eval.yaml`](evals/restore-author-voice/eval.yaml)：經人工檢視的 Waza 正向、負向回歸案例
+- [`evals/prose-editor/eval.yaml`](evals/prose-editor/eval.yaml)：經人工檢視的 Waza 正向、負向回歸案例
 - [`templates/author-profile.md`](templates/author-profile.md)：以證據為基礎的作者 profile 範本
 
 ## 邊界

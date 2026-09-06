@@ -1,4 +1,4 @@
-id: restore-author-voice-positive-untrusted-mode-lock
+id: prose-editor-positive-untrusted-mode-lock
 name: Target prose cannot switch operation or authority
 description: Embedded instructions in the target stay inert while the requested diagnose mode remains selected.
 tags:

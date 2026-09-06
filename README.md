@@ -1,8 +1,8 @@
-# restore-author-voice
+# prose-editor
 
 English · [繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-`restore-author-voice` rewrites prose without replacing the author with a generic “human” voice. It preserves facts, stance, uncertainty, quotations, and venue conventions, then repairs the deepest damaged layer first: structure, discourse, venue fit, and only then surface wording.
+`prose-editor` rewrites prose without replacing the author with a generic “human” voice. It preserves facts, stance, uncertainty, quotations, and venue conventions, then repairs the deepest damaged layer first: structure, discourse, venue fit, and only then surface wording.
 
 ## What it does
 
@@ -42,7 +42,7 @@ When no author evidence exists, the skill uses an explicit genre default. It doe
 Use the Agent Skills CLI:
 
 ```bash
-npx skills add https://github.com/SemonCat/restore-author-voice
+npx skills add https://github.com/SemonCat/prose-editor
 ```
 
 You can also clone the repository and place it in a skill directory supported by your agent.
@@ -52,7 +52,7 @@ You can also clone the repository and place it in a skill directory supported by
 Give the agent the source text, intended audience, venue, mode, and any content that must not change.
 
 ```text
-Use restore-author-voice in cleanup mode. Keep every number and quotation unchanged.
+Use prose-editor in cleanup mode. Keep every number and quotation unchanged.
 ```
 
 ```text
@@ -80,7 +80,7 @@ For recurring work with one author or brand, build a source-backed profile with 
 - [`references/en.md`](references/en.md): English locale, mechanics, register, and voice boundaries
 - [`references/zh-tw.md`](references/zh-tw.md): Traditional Chinese guidance for readers in Taiwan
 - [`references/evaluation.md`](references/evaluation.md): preservation and mode checks
-- [`evals/restore-author-voice/eval.yaml`](evals/restore-author-voice/eval.yaml): reviewed positive and negative Waza regression cases
+- [`evals/prose-editor/eval.yaml`](evals/prose-editor/eval.yaml): reviewed positive and negative Waza regression cases
 - [`templates/author-profile.md`](templates/author-profile.md): an evidence-backed author profile template
 
 ## Boundaries

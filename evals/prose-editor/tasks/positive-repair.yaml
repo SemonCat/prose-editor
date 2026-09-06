@@ -1,4 +1,4 @@
-id: restore-author-voice-positive-repair
+id: prose-editor-positive-repair
 name: Restore voice from original anchors
 description: Repair an AI-polished paragraph using only facts present in the supplied original.
 tags:

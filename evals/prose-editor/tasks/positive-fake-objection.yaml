@@ -1,4 +1,4 @@
-id: restore-author-voice-positive-fake-objection
+id: prose-editor-positive-fake-objection
 name: Remove drafting-debris objections
 description: A rewrite should remove unsupported defenses and fake alternatives while preserving the implemented behavior and its reason.
 tags:

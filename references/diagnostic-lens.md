@@ -25,8 +25,9 @@ Check:
 - **Specificity:** verifiable people, actions, dates, places, numbers, limits, and costs.
 - **Owned judgment:** choices, objections, preferences, tradeoffs, and uncertainty.
 - **Presence:** observations or constraints that cannot be swapped between arbitrary authors.
+- **Portability:** replace the person, company, country, or product with a plausible peer. If the sentence still works unchanged and serves no necessary neutral function, cut it or replace it with a source-backed mechanism, example, consequence, or judgment.
 
-First person alone is not presence.
+First person alone is not presence. A portable sentence is a diagnostic candidate, not an automatic deletion.
 
 ## Genre
 

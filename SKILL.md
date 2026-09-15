@@ -1,6 +1,6 @@
 ---
 name: "prose-editor"
-description: "Use this skill to rewrite, humanize, de-AI, diagnose, or polish prose while preserving facts, quotes, author voice, genre, audience, venue, and usable copy."
+description: "Rewrite, humanize, de-AI, diagnose, or polish prose while preserving facts, voice, genre, audience, venue, and usable copy."
 ---
 
 # Prose Editor
@@ -13,7 +13,7 @@ description: "Use this skill to rewrite, humanize, de-AI, diagnose, or polish pr
 
 3. **Anchor voice.** Choose 3–7 traceable anchors. Venue samples set register and format only. For an explicit voice or style guide, read [composition](references/voice-composition.md); finish when evidence-backed anchors guide the edit.
 
-4. **Diagnose.** Read [the lens](references/diagnostic-lens.md). Add [structure](references/structure-and-discourse.md) for narrative or long form, [venue guides](references/venue-guides.md) for professional prose, and [AI patterns](references/ai-patterns.md) for de-AI work. Ask up to three questions only if missing evidence changes the result; finish with each change tied to a problem and layer.
+4. **Diagnose.** Read [the lens](references/diagnostic-lens.md). Add [structure](references/structure-and-discourse.md) for narrative or long form, [venue guides](references/venue-guides.md) for professional prose, and [AI patterns](references/ai-patterns.md) for de-AI work. For diagnose-only work, name each pattern, quote the minimum evidence span, explain why it fails in context, and give a short action without rewriting, scoring, or inferring authorship. Ask up to three questions only if missing evidence changes the result; finish with each change tied to a problem and layer.
 
 5. **Revise deepest-first.** Fix architecture or venue fit before flow and wording. Apply the [English](references/en.md) or [Traditional Chinese](references/zh-tw.md) guide; finish without meaning drift.
 
